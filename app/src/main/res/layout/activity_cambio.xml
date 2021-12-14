@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cambio"
+    android:background="@drawable/font2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/lblCusco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Cambio de moneda"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:textColor="#BABAB9"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
+            <Spinner
+                android:id="@+id/spinnerMonedaActual"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/btn_redondeado_white"
+                android:entries="@array/monedas"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="→"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:textColor="#BABAB9"/>
+            <Spinner
+                android:id="@+id/spinnerMonedaCambio"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/btn_redondeado_white"
+                android:entries="@array/monedas"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
+            <EditText
+                android:id="@+id/txtMonto"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:background="@drawable/btn_redondeado_white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:gravity="center"
+                android:hint="12.5"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblRespuesta"
+            android:layout_marginVertical="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#C1FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnConvertir"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/btn_facebook"
+            android:text="convertir"
+            android:onClick="convertir"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

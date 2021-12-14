@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "160560649699",
+    "project_id": "amanconcaydatabase",
+    "storage_bucket": "amanconcaydatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160560649699:android:952abb153c2a667dd3bcd6",
+        "android_client_info": {
+          "package_name": "com.example.finalsemestre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160560649699-5ees90hvckstq2umn320j52s5s6e2cvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd38ZUcBEWULBN3p8CLl6yRJiC_f2ipvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160560649699-5ees90hvckstq2umn320j52s5s6e2cvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160560649699:android:c234aeeb75ced9eed3bcd6",
+        "android_client_info": {
+          "package_name": "com.example.hotelamanconcay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160560649699-5ees90hvckstq2umn320j52s5s6e2cvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd38ZUcBEWULBN3p8CLl6yRJiC_f2ipvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160560649699-5ees90hvckstq2umn320j52s5s6e2cvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
